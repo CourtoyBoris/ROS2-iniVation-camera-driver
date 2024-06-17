@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/boris/galactic_ws/install/turtlesim/include/**",
+        "/home/boris/galactic_ws/install/camera/include/**",
+        "/home/boris/galactic_ws/install/message/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/boris/galactic_ws/src/camera/include/**",
+        "/home/boris/galactic_ws/src/cpp_pubsub/include/**",
+        "/home/boris/galactic_ws/src/ros_tutorials/turtlesim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
