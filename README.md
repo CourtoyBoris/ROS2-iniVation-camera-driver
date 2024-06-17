@@ -1,7 +1,7 @@
 # ROS2 iniVation camera driver
 
 ROS2 packages managing the integration of the event-based cameras from iniVation in a ROS2 project.
-This package has been developped under ROS2 Galactic (https://docs.ros.org/en/galactic/index.html) and relies on the dv-processing library fromm iniVation (https://dv-processing.inivation.com/rel_1_7/index.html). Make sure to install them properly
+This package has been developped under ROS2 Galactic (https://docs.ros.org/en/galactic/index.html) and relies on the dv-processing library fromm iniVation (https://dv-processing.inivation.com/rel_1_7/index.html). Make sure to install them properly.
 Because of C++ incompatibilities, we have to sligthly modify the ROS2 distribution to make it C++20 friendly, as the dv-processing relies on C++20 mechanisms. The modification can be found in the following github issue : (https://github.com/ros2/rclcpp/pull/1678)
 
 ## Compilation
